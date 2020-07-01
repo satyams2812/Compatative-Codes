@@ -49,10 +49,13 @@ height_of_tree(node *root)
     return 1+max(height_of_tree(root->left),height_of_tree(root->right));
 }
 
+
+
 int main()
 {
    node *root = buildTree();
     PreOrder(root);
     cout<<"\n";
    cout<<height_of_tree(root);
+       cout<<"\n";
 }
