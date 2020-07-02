@@ -29,8 +29,8 @@ public:
              return root;
         }
         
-        return(leftLca==NULL)?leftLca:rightLca;
-        
+        return(leftLca!=NULL)?leftLca:rightLca;
+       
         
     }
 };
